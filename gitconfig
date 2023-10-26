@@ -60,5 +60,13 @@
 [init]
   defaultBranch = master
 [user]
-	email = tarik elbanini
-	name = cd ~/code/$GITHUB_USERNAME/dotfiles && zsh git_setup.sh
+	email = tarikbanini10@gmail.com
+	name = Tarik ElBanini
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential]
+	helper = store
